@@ -12,8 +12,14 @@ A collection of mildly useful LLVM 6 passes.
 ./run_printo.sh
 ```
 
-**Note:** if you have enough RAM, kill `setup.sh` after the downloads,
+**Note:** if you have enough RAM, kill `setup.sh` when it starts compiling,
 `cd llvm_build/` and then `make -j $NUMBER_OF_PROCESSES`.
+
+### How to add a pass
+
+* Append `add_subdirectory(passes/passname)` to `CMakeLists.txt`
+* Copy `passes/printo/*` to `passes/passname/` and rename what needs renaming
+* `./build.sh` :)
 
 ## Passes
 
