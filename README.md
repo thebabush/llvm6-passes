@@ -5,7 +5,10 @@ A collection of mildly useful LLVM 6 passes.
 ## Setup
 
 ```sh
+# Download and build LLVM 6
 ./setup.sh
+
+# Build the custom passes
 ./build.sh
 
 # Run a simple pass
