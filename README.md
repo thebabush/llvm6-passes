@@ -1,4 +1,4 @@
-# LLVM Passes
+# LLVM 6 Passes
 
 A collection of mildly useful LLVM 6 passes.
 
